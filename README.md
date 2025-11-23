@@ -1,5 +1,10 @@
 レンダーデプロイが可能！！
-
+方法　1Render にログイン → New → Web Service を作成。
+Connect to GitHub リポジトリにこの repo を選択
+Branch に master（または使うブランチ）
+Environment は Docker を選択（render.yaml があれば自動でも検出されます）
+Create Service を実行すると、Render が Dockerfile を使ってビルド・デプロイします。
+デプロイ完了後、Render の公開URL でゲームが動作するはず
 Cubiks-2048
 ===========
 
